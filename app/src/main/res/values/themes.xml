@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ZenPro" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowEnterTransition">@android:transition/slide_right</item>
+        <item name="android:windowExitTransition">@android:transition/slide_left</item>
+    </style>
+
+    <style name="Theme.ZenPro" parent="Base.Theme.ZenPro" />
+
+    <style name="ThemeOverlay.AppCompat.navTheme">
+        <!-- Color of text and icon when SELECTED -->
+        <item name="colorPrimary">@color/white</item>
+        <!-- Background color when SELECTED -->
+        <item name="colorControlHighlight">@color/Zen_Red</item>
+        <!-- Color of text when NON-SELECTED -->
+        <item name="android:textColorSecondary">@color/black</item>
+    </style>
+</resources>
